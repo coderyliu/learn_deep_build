@@ -1,0 +1,1 @@
+const message="coderyliu",test=e=>{console.log(e)},add=(e,s)=>e+s;class Person{height=1.88;constructor(e,s){this.name=e,this.age=s}eat(){console.log("eating")}}

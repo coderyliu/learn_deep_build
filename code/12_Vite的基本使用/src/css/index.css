@@ -1,0 +1,11 @@
+#box{
+  color:#bfa;
+}
+
+#box2{
+  color:orange;
+}
+
+.content{
+  display: flex;
+}

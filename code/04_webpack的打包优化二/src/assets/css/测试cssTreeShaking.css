@@ -1,0 +1,11 @@
+.title{
+  color:#ccc;
+  font-size:12px;
+  text-align:center;
+}
+
+.omit{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+}

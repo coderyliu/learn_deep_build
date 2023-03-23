@@ -1,0 +1,40 @@
+body {
+  font-family: 'iconfont';
+  font-size: 16px;
+}
+
+div,
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+table,
+textarea,
+i,
+strong,
+header,
+footer,
+ul,
+li,
+ol,
+b {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1{
+  color:#bfa;
+}

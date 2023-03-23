@@ -1,0 +1,36 @@
+body {
+  font-size: 14px;
+  color: #333;
+}
+
+div,
+span,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+br,
+b,
+strong,
+em,
+i,
+nav,
+header,
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
