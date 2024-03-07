@@ -1,21 +1,21 @@
 <template>
   <div>
-    <h2 class="text">嘻嘻嘻 {{name}}</h2>
+    <h2 class="text">嘻嘻嘻 {{ name }}</h2>
   </div>
 </template>
 
 <script>
-export default{
-  data(){
+export default {
+  data() {
     return {
-      name:"coder"
+      name: "coder"
     }
   }
 }
 </script>
 
 <style scoped>
-.text{
-  color:red;
+.text {
+  color: red;
 }
 </style>

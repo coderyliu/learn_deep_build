@@ -11,7 +11,7 @@
 // *具体-c ,-m的参数配置，可以参考github仓库配置文件说明:https://github.com/webpack-contrib/terser-webpack-plugin
 
 // *如果没有添加具体的-c(compress压缩) -m(mangle姣肉机)那么是不会有什么效果
-// *-c arrows=true(把对象或者类中的函数转化为箭头函数) dead_code=true(没有的代码，删除) arguments=true(函数参数使用arguments[0]表示) 
+// *-c arrows=true(把对象或者类中的函数转化为箭头函数) dead_code=true(没有的代码，删除) arguments=true(函数参数使用arguments[0]表示)
 // *-m keep_fnames=true 保持函数名字不变 keep_
 
 // todo 2.terser在webpack中使用

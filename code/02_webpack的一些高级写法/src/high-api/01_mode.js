@@ -4,5 +4,5 @@
 // todo 3.在production模式下会做环境变量注入process.env_NODE_ENV='production'
 
 // *更多的优化处理看webpack官方文档
-const process=require('process')
-console.log(process)
+const process = require("process");
+console.log(process);

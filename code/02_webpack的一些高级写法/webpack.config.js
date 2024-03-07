@@ -102,7 +102,7 @@ module.exports = {
   },
   //? source-map 开发环境下，调试用
   // * 包括：source-map,inline-source-map,hidden-source-map,eval-source-map等
-  devtool: 'source-map',
+  devtool: 'eval-source-map',
   // ?开启dev-server  实时更新最新代码
   // *webpack-cli 升级到 4.x 的时候，就不能用 webpack-dev-server 跑脚本了，而是改为 webpack serve 去跑
   devServer: {

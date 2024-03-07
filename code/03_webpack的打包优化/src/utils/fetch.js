@@ -1,5 +1,5 @@
 // import axios from 'axios'
 
-axios.get('/playlist/catlist').then(res=>{
-  console.log(res)
-})
+axios.get("/playlist/catlist").then((res) => {
+  console.log(res);
+});

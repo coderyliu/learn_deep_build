@@ -5,4 +5,4 @@
  
 // *preload的意思当我们首屏渲染的时候，就把指定需要预解析的组件下载下来，和首屏的文件是并行的，所以不推荐使用
 // *对性能提升可能没有很大的帮助
-// todo 使用方式就是通过import()的魔法注释/*webpackPrefetch:bool  webpackPreload:bool*/
+// todo 使用方式就是通过import()的魔法注释/*webpackPrefetch:bool  webpackPreload:bool*/)

@@ -1,9 +1,7 @@
-import React, { memo } from 'react'
+import React, { memo } from "react";
 
 const App = memo(() => {
-  return (
-    <div>App page</div>
-  )
-})
+  return <div>App page</div>;
+});
 
-export default App
+export default App;

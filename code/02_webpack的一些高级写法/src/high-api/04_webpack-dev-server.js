@@ -10,11 +10,11 @@
 // ?changeOrigin的作用是把向服务器发送请求的Header中的host替换成服务器的真实地址，也就是target
 // *这样做的原因是因为，服务器有可能会进行校验，判断浏览器的host和服务器的Host是否一样，不一样可以防止爬虫
 // '/api':{
-    // target:"服务器的地址",
-    // changeOrigin:true
-    // pathWrite:{
-        // 'api':''
-    // }
+// target:"服务器的地址",
+// changeOrigin:true
+// pathWrite:{
+// 'api':''
+// }
 // }
 
 // todo 4.host:'0.0.0.0'

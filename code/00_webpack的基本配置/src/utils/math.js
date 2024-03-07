@@ -1,5 +1,5 @@
-export function add(x,y){
-  return x+y
+export function add(x, y) {
+  return x + y;
 }
 
-console.log(111)
+console.log(111);

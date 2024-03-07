@@ -4,7 +4,7 @@
 // *1.false  通常在生产环境下使用
 // *2.none  通常在生产环境下使用，不过当mode='production'时，不能声明devtool='none'，否则会报错
 // *3.source-map  通常在生产环境下使用，生产一个单独的map文件，错误精确到行列
-// *4.eval-source-map 通常在开发环境下使用，生成Data_URL在打包的文件的eval()后面，即还原源代码 精确到行列  
+// *4.eval-source-map 通常在开发环境下使用，生成Data_URL在打包的文件的eval()后面，即还原源代码 精确到行列
 // *5.eval 通常用在开发环境,成一个相应的source-map在打包文件的内容，用eval()包裹source-map,每一个引用的文件，用eval包裹
 // *6.inline-source-map 通常用在开发环境，会生成source-map的Data_URL在打包文件的末尾，精确到行列错误
 // *7.hidden-source-map 通常用在生产环境，会生成单独的source-map文件，但在打包文件不会自动引用，如果要使用需要我们自己引入通过注释
