@@ -1,5 +1,6 @@
 const path = require("node:path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const AutoUploadWebpackPlugin = require("./自定义plugin/autoUploadWebpackPlugin");
 
 module.exports = {
   entry: "./src/main.js",
@@ -53,5 +54,13 @@ module.exports = {
       }
     ]
   },
-  plugins: [new HtmlWebpackPlugin()]
+  plugins: [
+    new HtmlWebpackPlugin(),
+    new AutoUploadWebpackPlugin({
+      host: "192.168.1.100",
+      username: "root",
+      password: "123456",
+      remotePath: "/root/upload"
+    })
+  ]
 };
